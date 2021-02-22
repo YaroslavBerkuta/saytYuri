@@ -3,10 +3,54 @@
     margin: 0
     padding: 0
 
-.body
-    text-align: center
+.container 
+    width: 1200px
+    margin: 0 auto
+li
+    list-style: none
 
-.bebra
+a
+    text-decoration: none
+
+#hellopreloader
+    > p
+        display:none
+#hellopreloader_preload
+    display: block
+    position: fixed
+    z-index: 99999
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    min-width: 1000px
+    background: #000000 url(http://hello-site.ru//main/images/preloads/oval.svg) center center no-repeat
+    background-size: 156px
+.header
+    height: 500px
+    .container
+        height: 100%
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        img
+            width: 500px
+
+.menu
+    display: flex
+    justify-content: space-between
+    width: 500px
+
+.nav
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+
+.menu__hreff
+    text-transform: uppercase
+    font-size: 20px
+    color: black
+
+.baner
     margin-top: 50px
-    margin-bottom: 40px
-    font-size: 100px

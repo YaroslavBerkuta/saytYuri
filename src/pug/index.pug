@@ -4,9 +4,13 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Нуюхай бебру
+        title YM DIGI
         link(rel="stylesheet", href="css/style.css")
         link(rel="stylesheet", href="css/font.css")
+        link(rel="icon" href="favicon/favicon.ico" type="image/x-icon")
+        link(rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png")
     body
         #hellopreloader
             #hellopreloader_preload
@@ -16,16 +20,19 @@ html(lang="en")
                 nav.nav
                     ul.menu
                         li.menu__list 
-                            a.menu__hreff(href="#") lorem 
+                            a.menu__hreff(href="#baner") Home 
                         li.menu__list 
-                            a.menu__hreff(href="#") lorem 
+                            a.menu__hreff(href="#") Services 
                         li.menu__list 
-                            a.menu__hreff(href="#") lorem 
+                            a.menu__hreff(href="#") Team 
                         li.menu__list 
-                            a.menu__hreff(href="#") lorem 
+                            a.menu__hreff(href="#") Work 
                         li.menu__list 
-                            a.menu__hreff(href="#") lorem 
-        section.baner
+                            a.menu__hreff(href="#") Contact 
+        section.baner#baner
             .container
+                img(src="img/baner.jpg" alt="marketing").baner__img
+
+
         script(src="js/main.js")
         script(src="https://code.jquery.com/jquery-3.5.1.min.js") 

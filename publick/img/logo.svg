@@ -1,46 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 2514.2268 1735.5601"
-   height="1735.5601"
-   width="2514.2268"
-   xml:space="preserve"
-   id="svg2"
-   version="1.1"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6" /><g
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1735.56)"
-     id="g10"><g
-       transform="scale(0.1)"
-       id="g12"><path
-         id="path14"
-         style="fill:#1d1e1f;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="M 14207.2,1508.3 H 4207.24 v 10000 h 9999.96 v -10000" /><path
-         id="path16"
-         style="fill:none;stroke:#e9e9e9;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         d="m 13892.2,6508.28 c 0,-2587.46 -2097.5,-4684.98 -4684.96,-4684.98 -2587.45,0 -4685,2097.52 -4685,4684.98 0,2587.45 2097.55,4685.02 4685,4685.02 2587.46,0 4684.96,-2097.57 4684.96,-4685.02 z" /><path
-         id="path18"
-         style="fill:none;stroke:#e9e9e9;stroke-width:80;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         d="m 13657.2,6508.28 c 0,-2457.67 -1992.3,-4449.98 -4449.96,-4449.98 -2457.66,0 -4450,1992.31 -4450,4449.98 0,2457.66 1992.34,4450.02 4450,4450.02 2457.66,0 4449.96,-1992.36 4449.96,-4450.02 z" /><g
-         transform="scale(10)"
-         id="g20"><text
-           id="text24"
-           style="font-variant:normal;font-weight:normal;font-size:426.62799072px;font-family:Nunito;-inkscape-font-specification:Nunito-Regular;writing-mode:lr-tb;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,623.928,641.338)"><tspan
-             id="tspan22"
-             y="0"
-             x="0 256.40207">YM</tspan></text>
-<text
-           id="text28"
-           style="font-variant:normal;font-weight:normal;font-size:136.43299866px;font-family:Nunito;-inkscape-font-specification:Nunito-Regular;writing-mode:lr-tb;fill:#e9e9e9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,590.278,416.746)"><tspan
-             id="tspan26"
-             y="0"
-             x="0 79.402298 111.05373 191.00346 222.65533 257.85504 330.16455 410.11429 482.0137 559.50696 624.85651">digi agency</tspan></text>
-</g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#262626;}
+	.st1{fill:none;stroke:#EDEDED;stroke-width:10;stroke-miterlimit:10;}
+	.st2{fill:#EDEDED;}
+	.st3{font-family:'Nunito-Regular';}
+	.st4{font-size:402.496px;}
+	.st5{font-size:136.4332px;}
+</style>
+<circle class="st0" cx="500" cy="500" r="474.4"/>
+<circle class="st1" cx="500" cy="500" r="468.5"/>
+<text transform="matrix(1.0093 0 0 1 204.2041 540.125)" class="st2 st3 st4">YM</text>
+<text transform="matrix(1 0 0 1 169.5542 682.0811)" class="st2 st3 st5">digi agency</text>
+<image style="display:none;overflow:visible;opacity:0.61;enable-background:new    ;" width="380" height="297" xlink:href="132840F1D6043DA1.jpeg"  transform="matrix(3.7845 0 0 3.7845 -237.0639 -76.0037)">
+</image>
+<image style="display:none;overflow:visible;enable-background:new    ;" width="1022" height="705" xlink:href="132840F1D6043DA3.jpeg"  transform="matrix(1.8451 0 0 1.8451 -420.7243 -150.3917)">
+</image>
+</svg>

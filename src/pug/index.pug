@@ -14,24 +14,33 @@ html(lang="en")
     body
         #hellopreloader
             #hellopreloader_preload
-        header.header 
+        header.header#top
             .container
                 img(src="img/logo.svg", alt="")
                 nav.nav
                     ul.menu
                         li.menu__list 
-                            a.menu__hreff(href="#baner") Home 
+                            a.menu__hreff(href="#top") Home 
                         li.menu__list 
-                            a.menu__hreff(href="#") Services 
+                            a.menu__hreff(href="#about") About Us  
                         li.menu__list 
-                            a.menu__hreff(href="#") Team 
+                            a.menu__hreff(href="#") Work
                         li.menu__list 
-                            a.menu__hreff(href="#") Work 
+                            a.menu__hreff(href="#") Service
                         li.menu__list 
                             a.menu__hreff(href="#") Contact 
-        section.baner#baner
+        section.baner
             .container
                 img(src="img/baner.jpg" alt="marketing").baner__img
+
+        section.aboutus#about 
+            .container 
+                .flag__container 
+                    .flag 
+                        h2 About Us
+                .about__container 
+                    .about__info 
+                        p.about__paragraf Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae natus laudantium iure eos culpa, excepturi repellendus veritatis, quis illum porro a rerum exercitationem nihil earum libero itaque, explicabo commodi.
 
 
         script(src="js/main.js")

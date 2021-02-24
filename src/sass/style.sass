@@ -2,7 +2,11 @@
     box-sizing: border-box
     margin: 0
     padding: 0
-
+h2
+    font-size: 14px
+    font-family: 'Montserrat'
+    font-weight: 300
+    letter-spacing: 3px
 .container 
     width: 1200px
     margin: 0 auto
@@ -35,7 +39,7 @@ a
         justify-content: center
         flex-wrap: wrap
         img
-            width: 350px
+            width: 250px
 
 .menu
     display: flex
@@ -50,7 +54,8 @@ a
 
 .menu__hreff
     text-transform: uppercase
-    font-size: 20px
+    font-size: 14px
+    letter-spacing: 3px
     color: black
 
 .baner
@@ -61,3 +66,61 @@ a
 .baner__img
     height: 600px
     width: 1100px
+
+
+.aboutus
+    margin-top: 100px
+    .container
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-wrap: wrap
+.flag__container 
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 64px
+    width: 100%
+.flag
+    background: black
+    color: white
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    height: 26px
+    width: 140px
+    padding-top: 4px
+    padding-bottom: 4px
+    padding-left: 20px
+
+.flag::after
+    content: ""
+    position: absolute
+    display: block
+    bottom: 0px
+    border: 13px solid black
+    z-index: -1
+    right: -35px
+    border-left-width: 24px
+    border-right-color: transparent
+    -webkit-box-shadow: rgb(0 0 0 / 40%) 0px 0px 0px
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px
+    box-shadow: rgb(0 0 0 / 40%) 0px 0px 0px
+
+.about__container 
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+.about__info
+    display: flex
+    justify-content: center
+    align-items: center
+
+.about__paragraf
+    font-size: 20px
+    width: 505px
+    letter-spacing: 2px
+    line-height: 26px
+    color: #565656

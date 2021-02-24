@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700;900&display=swap');
 html{
-    font-family: 'Jura';
-    font-size: 15px;
-    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 100;
+}
+p{
+    font-family: 'Inconsolata';
 }

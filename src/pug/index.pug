@@ -16,7 +16,7 @@ html(lang="en")
             #hellopreloader_preload
         header.header#top
             .container
-                img(src="img/logo.svg", alt="")
+                img(src="img/logo.svg", alt="ym digi")
                 nav.nav
                     ul.menu
                         li.menu__list 
@@ -24,9 +24,7 @@ html(lang="en")
                         li.menu__list 
                             a.menu__hreff(href="#about") About Us  
                         li.menu__list 
-                            a.menu__hreff(href="#") Work
-                        li.menu__list 
-                            a.menu__hreff(href="#") Service
+                            a.menu__hreff(href="#service") Service
                         li.menu__list 
                             a.menu__hreff(href="#") Contact 
         section.baner
@@ -41,7 +39,34 @@ html(lang="en")
                 .about__container 
                     .about__info 
                         p.about__paragraf Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae natus laudantium iure eos culpa, excepturi repellendus veritatis, quis illum porro a rerum exercitationem nihil earum libero itaque, explicabo commodi.
+                    .about__info 
+                        p.about__paragraf Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque delectus veniam eaque fuga facilis eos, quasi odit beatae maxime fugit dolor perferendis nostrum, consequuntur neque odio suscipit itaque corrupti tempora.
+                    .about__info
+                        p.about__paragraf Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque delectus veniam eaque fuga facilis eos, quasi odit beatae maxime fugit dolor perferendis nostrum, consequuntur neque odio suscipit itaque corrupti tempora.
+
+        section.service#service
+            .container
+                .flag__container 
+                    .flag 
+                        h2 Service
+                .service__container
+                    .service__img
+                        img.seo(src="img/service/seo.png", alt="seo")
+                        p.service__img_description seo text
+                    .service__img
+                        img.smm(src="img/service/smm1.png", alt="smm")
+                        p.service__img_description smm text
+                    .service__img
+                        img.youtube(src="img/service/youtube.jpg", alt="youtube")
+                        p.service__img_description youtube text
+                    .service__img
+                        img.facebook(src="img/service/facebook_ads.jpg", alt="facebook")
+                        p.service__img_description facebook text
+                    .service__img
+                        img.google(src="img/service/google_ads.jpg", alt="google")
+                        p.service__img_description google text
 
 
-        script(src="js/main.js")
+
         script(src="https://code.jquery.com/jquery-3.5.1.min.js") 
+        script(src="js/main.js")

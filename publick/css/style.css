@@ -183,6 +183,7 @@ section {
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .service__img .service__img_description {
   color: white;
@@ -195,10 +196,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.service__img:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 .service__img:hover {

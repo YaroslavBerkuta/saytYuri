@@ -4,13 +4,6 @@
   padding: 0;
 }
 
-h2 {
-  font-size: 14px;
-  font-family: "Montserrat";
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -205,4 +198,21 @@ section {
 .service__img:hover .service__img_description {
   font-size: 20px;
   background: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.service .container {
+  text-align: center;
+}
+
+.visible_btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-top: 20px;
 }

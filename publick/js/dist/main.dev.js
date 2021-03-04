@@ -30,3 +30,25 @@ $(function () {
     }, 1500);
   });
 });
+$(document).ready(function () {
+  $("#showHideContent").click(function () {
+    if ($("#content1").is(":hidden")) {
+      $("#content1").show("slow");
+    } else {
+      $("#content1").hide("slow");
+    }
+
+    return false;
+  });
+});
+$(document).ready(function () {
+  $("#showHideContent").click(function () {
+    if ($("#content2").is(":hidden")) {
+      $("#content2").show("slow");
+    } else {
+      $("#content2").hide("slow");
+    }
+
+    return false;
+  });
+});

@@ -62,13 +62,13 @@ html(lang="en")
                     .service__img
                         img.facebook(src="img/service/facebook_ads.jpg", alt="facebook")
                         p.service__img_description facebook text
-                    .service__img
+                    .service__img(style={display: 'none'})#content1
                         img.google(src="img/service/google_ads.jpg", alt="google")
                         p.service__img_description google text
-                    .service__img
+                    .service__img(style={display: 'none'})#content2
                         img.google(src="img/service/copiwrite.png", alt="google")
                         p.service__img_description copiwrite text
-
+                button.visible_btn#showHideContent see more
 
 
         script(src="https://code.jquery.com/jquery-3.5.1.min.js") 

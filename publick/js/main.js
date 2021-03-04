@@ -49,3 +49,15 @@ $(document).ready(function(){
       return false;
   });
 });
+$(document).ready(function(){
+
+  var $menu = $("#menu");
+
+  $(window).scroll(function(){
+      if ( $(this).scrollTop() > 400 && $menu.hasClass("nav") ){
+          $menu.removeClass("nav").addClass("fixed");
+      } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+          $menu.removeClass("fixed").addClass("nav");
+      }
+  });//scroll
+});

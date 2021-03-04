@@ -216,3 +216,24 @@ section {
   cursor: pointer;
   margin-top: 20px;
 }
+
+.fixed {
+  height: 80px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  -moz-box-shadow: 5px 5px 20px #333;
+  z-index: 999;
+  background: white;
+}
+.fixed ul {
+  align-items: center;
+}
+.fixed ul .top {
+  background: url("../img/arow_top.png") no-repeat center center/10%;
+  padding-left: 90px;
+}

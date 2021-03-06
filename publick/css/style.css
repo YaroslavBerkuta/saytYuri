@@ -212,9 +212,10 @@ section {
   background: black;
   color: white;
   border: none;
-  padding: 10px 40px;
+  padding: 15px 50px;
   cursor: pointer;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 .fixed {
@@ -236,4 +237,47 @@ section {
 .fixed ul .top {
   background: url("../img/arow_top.png") no-repeat center center/10%;
   padding-left: 90px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__form{
+  width: 50%;
+}
+.contact__info{
+  width: 50%;
+  display: flex;
+}
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 20px;
+  color: black;
+}
+
+.form-group{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+label{
+  width: 100%;
+  font-size: 15px;
+}
+
+.contact{
+  margin-top: 250px;
+}
+.form-control{
+  background: white;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.contact__header{
+  font-size: 30px;
 }

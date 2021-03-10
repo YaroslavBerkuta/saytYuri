@@ -62,3 +62,13 @@ $(document).ready(function () {
     }
   }); //scroll
 });
+$(function () {
+  var particles = Particles.init({
+    selector: ".background",
+    color: ["#DBEDF3"],
+    connectParticles: true,
+    minDistance: 180,
+    sizeVariations: 5,
+    maxParticles: 70
+  });
+});

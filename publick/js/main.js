@@ -1,3 +1,4 @@
+
 var hellopreloader = document.getElementById("hellopreloader_preload");
 
 function fadeOutnojquery(el) {
@@ -60,4 +61,14 @@ $(document).ready(function(){
           $menu.removeClass("fixed").addClass("nav");
       }
   });//scroll
+});
+$(function () {
+  var particles = Particles.init({
+    selector: ".background",
+    color: [ "#DBEDF3"],
+    connectParticles: true,
+    minDistance: 180,
+    sizeVariations: 5,
+    maxParticles: 70,
+  });
 });

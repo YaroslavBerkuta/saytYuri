@@ -16,6 +16,7 @@ html(lang="en")
         #hellopreloader
             #hellopreloader_preload
         header.header#top
+            canvas.background
             .container
                 img(src="img/logo.svg", alt="ym digi")
                 nav.nav#menu
@@ -73,27 +74,21 @@ html(lang="en")
         section.contact#contact
             .container
                 .flag__container 
-                    .flag 
+                    .flag
                         h2 Contact
                 .contact_container
                     .contact__info
-
-                    .contact__form
-                        form(action="mail.php")(name="form")(method="post")#form_message    
-                            h2 Get in touch
-                            p
-                                .title Name*
-                                    input(type="text")(name="name").input
-                            p
-                                .title E-mail*
-                                    input(type="text")(name="email").input
-                            p
-                                .title Subjects 
-                                    input(type="text")(name="subjects").input
-                            p
-                                .title Subjects 
-                                    input(type="submit")(name="subjects")(value="Отравить")#submit
+                    .contact__form  
+                        form(action="mail.php", method="post")
+                            label Name*
+                            input(type="text", name="name", required).form__input
+                            label E-mail* 
+                            input(type="text" name="email" required ).form__input
+                            label Phone 
+                            input(type="tel", name="phone").form__input
+                            input(type="submit" value="Send").form__btn
 
 
         script(src="https://code.jquery.com/jquery-3.5.1.min.js") 
+        script(src="js/particles.js") 
         script(src="js/main.js")

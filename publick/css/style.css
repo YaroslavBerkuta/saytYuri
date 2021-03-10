@@ -46,7 +46,7 @@ a {
 }
 
 .header {
-  height: 500px;
+  height: 100vh;
 }
 .header .container {
   height: 100%;
